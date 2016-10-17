@@ -113,8 +113,8 @@ soumyas_bag.print_bag()
 
 print(johns_bag.print_bag())
 # Prints: []
-#	  []
-#	  None
+#	    []
+#	    None
 
 print(Bag.number_sold)
 # Prints: 2

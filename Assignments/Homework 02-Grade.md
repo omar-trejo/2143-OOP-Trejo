@@ -2,7 +2,7 @@
 | #       | Item                                                       | Value       | Earned   |                |
 |:--------|:-----------------------------------------------------------|:------------|:---------|:---------------|
 | ***1*** | ***General***                                              |             |          |                |
-| -       | Code was on github                                         | pass/fail   |          | ![Alt text][1] |
+| -       | Code was on github                                         | pass/fail   |          | ![Alt text][3] |
 | -       | Code could be ran.                                         | pass/fail   |          | ![Alt text][1] |
 | -       | Code was commented                                         |    10       |    0     | ![Alt text][2] |
 | ***2*** | ***Add Method***                                           |             |          |                |
@@ -10,11 +10,11 @@
 | -       | Handled a whole number portion of the fraction             |    30       |    30    | ![Alt text][1] |
 | ***2*** | ***Overloaded Add Operator***                              |             |          |                |
 | -       | `__add__` existed and worked                               |    30       |    30    | ![Alt text][1] |
-|         | Totals:                                                    | **100**     |  **90** | ![Alt text][1] |
+|         | Totals:                                                    | **100**     |  **85** | ![Alt text][1] |
 
 ### Comments:
 ```
-No comments! You lost an easy 10 points! 
+No comments! You lost an easy 10 points! File Named incorrectly -5
 ```
 
 [1]: http://f.cl.ly/items/3E231i211n2E042B1U3K/right.png  "Correct"

@@ -136,7 +136,7 @@ print(b.a)
 # Prints: 3
 
 print(f.garply())
-# Prints: Call will errors since Foo does not inherit from Boo. Foo does not in turn have baz defined.
+# Prints: Call will error since Foo does not inherit from Boo.
 
 print(b.garply())
 # Prints: 3

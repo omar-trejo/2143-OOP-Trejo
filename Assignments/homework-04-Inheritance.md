@@ -79,10 +79,8 @@ class Cat(Pet):
 		self.lives -= 1
 		if self.lives > 0:
 			self.is_alive = True
-			return self.is_alive
 		else:
-			return False
-
+			self.is_alive = False
 ```
 
 -----

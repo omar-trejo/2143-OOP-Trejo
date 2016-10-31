@@ -1,3 +1,4 @@
+#Omar Trejo
 import random
 import abc
 
@@ -114,11 +115,7 @@ class Player(object):
     @Params:
         strategy: string 
         value: int    
-    @Returns: None
-    @Usage:
-            SetStrategy('Target_Score',20)
-            SetStrategy('Target_Rolls',5)     
-            SetStrategy('Sprint_To_Finish',72)    
+    @Returns: None  
     """
     def SetStrategy(self,strategy,value):
         if strategy in self.Strategies:

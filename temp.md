@@ -192,6 +192,7 @@ Create a point class, line class, and a rectangle class.
     - Add a length method 
 - A rectangle consists of two points as well, the upper right, and the lower left.
     - Add an area and perimeter method
+
 ##A:
 ```python
 import math

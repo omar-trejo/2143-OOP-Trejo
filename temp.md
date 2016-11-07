@@ -374,7 +374,7 @@ for k,v in x.items():
 		print ("First:", f, "Middle:", m, "Last:", l)
 		
 # Prints: First: 5 Middle: 8 Last: 11
-#		 First: 5 Middle: 6 Last: 8
+#		  First: 5 Middle: 6 Last: 8
 #         Value: 6 Key: 55
 #         First: 5 Middle: 5 Last: 6
 ```

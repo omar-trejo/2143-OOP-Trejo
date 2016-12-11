@@ -63,14 +63,14 @@ for i in range(len(a)):
   print (a[i])
   
 # Both Print: 34
-			  55
-			  3
-			  22
-			  hello
-			  wassup
-			  99
-			  17.9
-			  42
+#			  55
+#			  3
+#			  22
+#			  hello
+#			  wassup
+#			  99
+#			  17.9
+#			  42
 ```
 =====
 
@@ -88,12 +88,12 @@ for k,v in a.items():
   print (k,v)
 
 # Prints: e 5
-          a 1
-          f 6
-          d 4
-          c 3
-          b 2
-          g 7
+#         a 1
+#         f 6
+#         d 4
+#         c 3
+#         b 2
+#         g 7
 ```
 
 =====
@@ -205,7 +205,9 @@ def min_max_avg(list):
   return ((min(list),max(list),sum(list)/len(list)))
   
 l1 = [3,4,5,2,33,77,65,67,22,12,3,44,5,66,77]
-print (min_max_avg(l1))
+print ("(Min,Max,Avg)", min_max_avg(l1))
+
+# Prints: (Min,Max,Avg) (2, 77, 32.333333333333336)
 ```
 
 =====
@@ -257,10 +259,13 @@ class listStats(object):
 l1 = [3,4,5,2,33,77,65,67,22,12,3,44,5,66,77]
 l2 = [55,7,66,23,45,3,4,11,2,99,8,7,98,58,23]
 s1 = listStats(l1)
+
 print(s1.getAvg()) 
+# Prints: 32.333333333333336
+
 s1.setList(l2)
 print(s1.getMax())
-
+# Prints: 99
 ```
 =====
 #### Q: String Output of a Class
@@ -412,11 +417,11 @@ wd.updateDictionary('walk','not run')
 print(wd)
 
 # Prints: run:
-			   go fast
-			   move legs powerfully
-		  walk:
-			   go slow
-			  not run
+#			   go fast
+#			   move legs powerfully
+#		  walk:
+#			   go slow
+#			  not run
 ```
 ======
 

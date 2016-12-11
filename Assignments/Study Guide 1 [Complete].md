@@ -458,5 +458,5 @@ print (sorted(list))
 print (myMedian(list))
 
 # Prints: [1, 3, 4, 5, 7, 8, 10]
-		  5
+#		  5
 ```
